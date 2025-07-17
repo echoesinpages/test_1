@@ -7,7 +7,7 @@ def calculate(list):
 
   #the above block gets a exception if the list does not have nine numebrs , its like a constraint
   
-  #creating a matrix of 3x3 size
+  #creating a matrix of 3x3 size 
   matrix = np.array(list).reshape((3,3))
 
   #creating a dictionary
